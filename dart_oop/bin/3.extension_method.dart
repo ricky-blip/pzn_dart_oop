@@ -1,3 +1,4 @@
+// untuk membuat method dari Class yang sudah ada tanpa merubah Class
 class Person {
   
   String name = "Ricky Rinaldy";
