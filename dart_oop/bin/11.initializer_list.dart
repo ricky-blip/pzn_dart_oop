@@ -6,7 +6,7 @@ class Customer {
   String fullName = "";
 
   Customer (this.fullName) 
-    // Membuat initializer List
+    // Membuat initializer List sebelum block Constructor
     : firstName = fullName.split(" ") [0], 
       middleName = fullName.split(" ") [1], 
       lastName = fullName.split(" ") [2] {
