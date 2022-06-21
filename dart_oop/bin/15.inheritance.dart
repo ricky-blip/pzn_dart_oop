@@ -1,4 +1,4 @@
-// Parent Class
+// SECTION Parent Class
 class Manager {
   String? name;
 
@@ -8,7 +8,7 @@ class Manager {
 
 }
 
-// Child Class dari class Manager
+// SECTION Child Class dari class Manager
 class VicePresident extends Manager{
 
 }
