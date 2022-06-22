@@ -15,6 +15,7 @@ class VicePresident extends President{
 
 void sayHello(Employee helloKaryawan) {
   // membuat konversi pengecekan terhadap tipe data ke tipe data aslinya
+  // menggunakan is dan as 
   if(helloKaryawan is President) {
     President president = helloKaryawan as President;
     print("Hello President ${president.name}");
