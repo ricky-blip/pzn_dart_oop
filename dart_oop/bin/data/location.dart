@@ -5,6 +5,6 @@ abstract class Location {
 class City extends Location {
 
   City(String name) {
-    this.name = name; // cara memanggil field name Parent
+    this.name = name; // cara memanggil field name ABSTRACT Parent
   }
 }
