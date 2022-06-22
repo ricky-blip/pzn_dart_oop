@@ -8,9 +8,7 @@ class Kendaraan {
   Kendaraan(this.name, this.brand);
 
   // Named Constructor agar bisa membuat lebih banyak constructor
-  Kendaraan.withName(this.name) {
-    
-  }
+  Kendaraan.withName(this.name);
 
   Kendaraan.withBrand(this.brand) {
 
