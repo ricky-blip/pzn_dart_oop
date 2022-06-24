@@ -7,6 +7,11 @@ class Product {
     return _quantity;
   }
 
+  // Override menggunakan toString()
+  String toString() {
+    return "Product {id: $id, name: $name, quantity: $_quantity}";
+  }
+
 }
 
 void main() {
@@ -21,5 +26,7 @@ void main() {
   print(product._quantity); // bisa akses field
 
   print(product._getQuantity()); // bisa akses method
+
+  print(product.toString());
 }
 
