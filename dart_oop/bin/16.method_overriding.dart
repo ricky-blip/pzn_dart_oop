@@ -9,7 +9,7 @@ class Manager {
 }
 
 class VicePresident extends Manager {
-  
+  @override
   void sayHello(String name) {
     print("Hello $name, I am Vice President.${this.name}");
   }
@@ -17,7 +17,7 @@ class VicePresident extends Manager {
 }
 
 class Staff extends Manager {
-  
+  @override
   void sayHello(String name) {
     print("Hello $name, I am Staff.${this.name}");
   }

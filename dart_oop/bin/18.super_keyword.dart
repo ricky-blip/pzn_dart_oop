@@ -7,7 +7,7 @@ class Shape {
 }
 
 class Rectangle extends Shape {
-
+  @override
   int getCorner() { // di OVERRIDE
     return 4;
   }

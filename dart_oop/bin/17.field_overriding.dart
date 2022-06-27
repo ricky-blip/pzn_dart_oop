@@ -8,6 +8,7 @@ class Person {
 
 class OtherPerson extends Person {
   // Override Field nya
+  @override
   String name = "Other Person";
 
 }

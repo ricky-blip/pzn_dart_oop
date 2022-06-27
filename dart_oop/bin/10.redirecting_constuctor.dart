@@ -7,7 +7,7 @@ class Kendaraan {
   // Constructor DEFAULT dengan formal parameter
   Kendaraan(this.name, this.brand);
 
-  // Named Constructor dengan redirecting dari DEFAULT Constructor
+  // NamedConstructor dengan redirecting dari DEFAULT Constructor
   Kendaraan.withName(String name) : this(name,"no Brand");
 
   Kendaraan.withBrand(String brand) : this("no Name", brand);

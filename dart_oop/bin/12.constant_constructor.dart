@@ -17,7 +17,7 @@ void main() {
   var point3 = const ImmutablePoint(10, 10);
   var point4 = const ImmutablePoint(10, 10);
 
-  print(point1 == point2);
+  print(point1 == point2); 
   
   print(point3 == point4);
 }
