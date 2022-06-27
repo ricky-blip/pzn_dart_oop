@@ -8,7 +8,7 @@ abstract class Multimedia {
 // SECTION 1
 // Jika terkendala dalam pewarisan class yang hanya bisa mempunyai Satu Parent, gunakan MIXIN
 // cara membuat MIXIN 
-mixin Playable on Multimedia{ // cara melimit MIXIN nya, memakai 'on'
+mixin Playable on Multimedia{ // cara melimit MIXIN nya, memakai 'on', maksudnya Playable hanya bisa diakses oleh turunan Multimedia
   String? name;
 
   void play() {

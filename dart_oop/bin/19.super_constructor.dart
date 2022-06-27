@@ -7,7 +7,7 @@ class CEO {
 
 class CTO extends CEO {
 
-  CTO(String name) : super(name){
+  CTO(String name) : super(name) {
     print("Create new CTO : \n");
   }
 

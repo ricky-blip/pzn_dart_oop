@@ -16,7 +16,7 @@ void main() {
   rectangle.volume = 400;
   print(rectangle.volume);
 
-  rectangle.valid = 0;
+  rectangle.valid = 9;
   print(rectangle.valid);
 
 }
