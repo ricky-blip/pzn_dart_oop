@@ -7,6 +7,7 @@ import 'data/multimedia.dart';
 
 // SECTION 2 
 // cara agar tetap bisa mengakses yg diLimit oleh class, lakukan Inheritance(Extends)
+
 class Video extends Multimedia with Playable, Stopable {
 
 }

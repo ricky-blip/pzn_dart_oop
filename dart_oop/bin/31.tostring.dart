@@ -10,7 +10,7 @@ void main() {
   product.name = "FlashDrive";
 
   print(product.toString()); // penggunaan toString()
-  print(product); 
-  // SAMA SAJA
+  print(product);   // SAMA SAJA
+  
   
 }
