@@ -5,5 +5,5 @@ void sayHello(String name, Filter filter) {
 }
 
 void main() {
-  sayHello("RICKY", (value) => value.toLowerCase());
+  sayHello("ricky rinaldy", (value) => value.toUpperCase());
 }
