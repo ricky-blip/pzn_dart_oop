@@ -1,8 +1,8 @@
-/**
- * Try Catch ke semua exception
- * kita bisa tidak menyebutkan class ketika melakukan try-catch
- * gunanya untuk ketika kita tidak peduli class exception nya apa saja
- */
+/** SECTION
+ * Stack Trace, digunakan untuk melacak detail dimana saja exception/error yg terjadi(Debugging)
+ * jika ingin mengetahui posisi atau terjadinya error, kita bisa menambahkan parameter kedua di catch
+ * secara otomatis parameter kedua tsb adalah sebuah OBJECT STACK_TRACE
+*/
 class ValidationLogin implements Exception { 
   String message;
   ValidationLogin(this.message);
@@ -23,11 +23,14 @@ class Validation {
 }
 
 void main() {
-  // Melakukan Try
+  // // NOTE tanpa menangkap exceptionnya(STACK TRACE)
+  // Validation.validate("",""); // REVIEW akan memunculkan Stack Trace 
+
   try { 
     Validation.validate("Ricky","Ricky1");
-  } catch (exception) { // langsung catch saja, maka akan lgsg menangkap semua class exception nya
+  } catch (exception, stackTrace) { // gunakan Stack Trace
     print("Error : ${exception.toString()}");
+    print("Error : ${stackTrace.toString()}"); // memanggil Stack Trace
   }
    finally {
     print("Finally");
