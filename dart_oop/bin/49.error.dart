@@ -14,7 +14,7 @@ void main() {
   
   // NOTE lakukan perbaikan/menutup error dengan Validasi
   if(ContohError.list.length > 10) {
-    print("Error jika memasukkan index lebih dari 10 ${ContohError.list[10]}");
+    print("Error jika memasukkan index > 10 ${ContohError.list[10]}");
   }
 
 }
