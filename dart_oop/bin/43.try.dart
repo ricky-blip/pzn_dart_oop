@@ -1,7 +1,7 @@
 /** SECTION
  * Try
  * Jika suatu method menyebabkan Exception maka program berhenti.
- * Oleh karena itu kita perlu Try-Catch, agar program tersebut tidak berhenti  
+ * Oleh karena itu kita perlu Try-Catch, agar program tersebut tidak berhenti             
  * kita perlu menangkap & melakukan sesuatu terhadap Exception nya. 
  */
 
