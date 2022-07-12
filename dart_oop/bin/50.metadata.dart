@@ -28,7 +28,7 @@ class Todo {
   // bisa digunakan dimana saja
 }
 
-@Todo("Anotasi untuk Class") //cara memakai anotasinya
+@Todo("Anotasi untuk Class") //cara memakai anotasinya.....
 class ApplicationLogic {
   @Todo("Will be implemented next release") 
   void featureA() {
