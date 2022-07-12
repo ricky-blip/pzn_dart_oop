@@ -3,24 +3,35 @@
  * gunakan symbol anotation ' @ ' dikode 
  * lalu diikuti dengan constant atau memanggil constanta constractor 
  */
-/**NOTE Standard Anotation
+/**NOTE Standard Annotation
  * @Deprecated -> sebuah constructor
  * = Menandai bahwa kode tersebut sudah tidak direkomendasikan digunakan
  * @Override -> sebuah constant
  * = Menandai bahwa field atau method tersebut merupakan override dari parent nya
  */
-
 class Sample {
-
   @override //menandai bahwa ini adalah Override
   String toString() {
     return "Sample";
   }
 
-  @Deprecated("Do not use this anymore") //bisa diisi sebuah parameter = constant constructor
-  void doNotUseThis() {
+  @Deprecated(
+      "Do not use this anymore") //bisa diisi sebuah parameter = constant constructor
+  void doNotUseThis() {}
+}
+
+// SECTION membuat Annotation sendiri,
+// kita bisa membuat constant atau bisa membuat class dengan constant constractor
+class Todo {
+  final String todo;
+  const Todo(this.todo); //wajid ada constant constractor
+  // bisa digunakan dimana saja
+}
+
+@Todo("Anotasi untuk Class") //cara memakai anotasinya
+class ApplicationLogic {
+  @Todo("Will be implemented next release") 
+  void featureA() {
 
   }
 }
-
-void main() {}
