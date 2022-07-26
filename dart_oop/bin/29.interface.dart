@@ -24,8 +24,10 @@ abstract class HasBrand {
 // NOTE semua isi yg ada di class yg dijadikan Interface, wajib dibuat ulang
 
 class Avanza implements Car, HasBrand { // implements bisa lebih dari satu 
+  @override
   String name = "Avanza";
 
+  @override
   String getBrand() => "Toyota";
 
   void drive() {
